@@ -83,3 +83,10 @@ p{
 .links :hover{
     background-color: blue;
 }
+a{
+    text-decoration: none;
+
+}
+.article:hover{
+    color: blueviolet;
+}
