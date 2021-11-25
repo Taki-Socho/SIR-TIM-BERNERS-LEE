@@ -6,15 +6,29 @@
     </head>
 <body>
     
-<center>
-    <ul class="menu"> 
-<li class="links"> <a href="#welcome"> HOME </a> </li>
- <li class="links"><a href="#video"> VIDEOS </a> </li> 
-<li class="links"> <a href="#work"> WORK </a> </li>
-<li class="links"> <a href="#writings"> WRITINGS </a> </li>  
-<li class="links"> <a href="#contact"> CONTACTS </a> </li>    
+    <nav class="navbar-inverse my_nav_bar"> 
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" target="#myNavbar">
+        <span class="icon-bar">  </span>
+          <span class="icon-bar">  </span>
+        <span class="icon-bar">  </span>   
+        </button> 
+        <a class="navbar-brand" href="#"> Taki Socho </a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar"> 
+        <ul class="navbar-nav"> 
+<li > <a href="#welcome"> HOME </a> </li>
+ <li><a href="#videos"> VIDEOS </a> </li> 
+<li > <a href="#work"> WORK </a> </li>
+<li > <a href="#writings"> WRITINGS </a> </li>  
+<li > <a href="#contact"> CONTACTS </a> </li>  
+<li > <a href="#aboutme"> BLOG </a> </li>             
     </ul>
-    </center>
+        </div>
+    </nav>
+    
+
     
 <section id="welcome">
     <div class="parallax-inner">
@@ -79,20 +93,42 @@ Sir Tim Berners Lee
         <br>
         <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank"> How Did Tim Berners-Lee Change the World With the World Wide Web? </a>
     </section>
+    <br>
+    <br>
+    <br>
     
     <section id="contact">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.19036289825!2d103.70416591382293!3d1.3143393768390321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2sin!4v1635415183496!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <div class="contact_1">
+        <br>
+        <br>
+    <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <a href="mailto:chatterjeetanishi0@gmail.com?Subject=Hello!!">
         <i class="fa fa-envelope"> </i> &nbsp; &nbsp; <h3> chatterjeetanishi0@gmail.com </h3>
         </a>
+        <br> 
+        <br>
         <a href="#"> 
         <i class="fa fa-instagram"> </i> &nbsp;&nbsp; <h3> myinstragramid </h3>
         </a>
         </div>
+        
+        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
+        <form> 
+            <span> Name:  </span>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="text" name="name" required>
+<br>
+            <br>
+            <span> Comment:  </span>
+            <input type="text" name="comment" required>
+            <br>
+            <br>
+            <input type="submit" value="submit" class="btn btn-success" >
+            </form>
+        </div>
     </section>
     
-    
+   
    
     </body>
 </html>
