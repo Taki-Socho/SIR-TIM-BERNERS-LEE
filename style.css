@@ -1,20 +1,13 @@
 body{
 text-align: center;
-margin: 0;
-padding-top: 800px;    
+ padding-top: 800px;
+    top: 0;
 }
-.profile{
-height: 375px;
-margin-bottom: 50px;
-border-radius: 50%;    
-}
+
 #welcome{
 position: absolute;
-
 color: black;
-
 bottom:0;
-
 opacity: 0.83;
 background: linear-gradient(#10e6de 0%,#10e69e 100%);
 display:table;
@@ -22,12 +15,8 @@ display:table;
     height: 100%;
     z-index: 9;
 }
-.parallex-inner{
-    display:table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
+
+
 h1{
     font-size: 40px;
     line-height: 1.2;
@@ -61,20 +50,6 @@ p{
     padding: 50px;
     text-align: center;
     font-size: 42px;
-}
-.menu{
-    
-    font-family: sans-serif;
-    position: fixed;
-    top: 0px;
-  
-    z-index: 10;
-    cursor: pointer;
-    background: white;
-    width: 100%;
-    margin-top: 0px;
-    
-    
 }
 .links{
     display: inline;
@@ -113,7 +88,7 @@ html{
     width: 100%;
 }
 .contact_1 a{
-  color: white;
+  color: red;
     text-shadow: none;
 }
 .contact_1 h3{
@@ -123,4 +98,7 @@ html{
     position: sticky;
     top: 0;
     z-index: 99999;
+}
+#videos iframe{
+    width: 80%;
 }
